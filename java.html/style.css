@@ -1,7 +1,7 @@
 body
 {
-    background-image: url("tlo6.png");
-    font-size: 18px;
+    background-image: url("tlo7.png");
+    font-size: 13px;
 }
 #contener
 {
@@ -90,8 +90,8 @@ select{
     font-family: 'Sedgwick Ave', cursive;
 }
 .obrazek{
-    height: 80%;
-    width: 80%;
+    height: 60%;
+    width: 60%;
 }
 #tab
 {

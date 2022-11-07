@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>Wczasy Nad Bałtykiem</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style10.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+
+    <script>
+        
+    </script>
+
+</head>
+<body>
+    <script>
+        function przelicz()
+        {
+            var dzieci = Number(document.getElementById("1").value);
+            var dorosli = Number(document.getElementById("2").value);
+            var nocleg = Number(document.getElementById("3").value);
+
+        
+        
+        var  koszt=Number((dzieci*35)+(dorosli*50)+(nocleg*30));
+        document.getElementById("wynik").innerHTML="<h3>Twoje zamówienie:</h3>Liczba noclegów: "+nocleg+"<br>Dla dzieci: "+dzieci+"<br>Liczba dorosłych: "+dorosli+" <br> Koszt całkowity  wynosi "+koszt+" zł.";
+        }
+
+    </script>
+
+        <section id="baner">
+            Wczasy Nad Bałtykiem
+        </section>
+  
+  
+    <section id="lewy">
+        <h3>Formularz Zgłoszeniowy:</h3> <br>
+        <br>
+        <tr>      
+        <td>Liczba dzieci(0-18):</td><td><input type="number" id="1"></td></tr><br>
+        <tr> <br>
+        <td>Liczba dorosłych:</td><td><input type="number" id="2"></td></tr><br>
+        <tr> <br>
+        <td>Liczba noclegów:</td><td><input type="number" id="3"></td></tr>
+         <br>
+        <br>  <input type="button" value="Koszt wczasów" onclick="przelicz()"> 
+        
+    </section>
+    <section id="wynik"></section> 
+    
+     
+    <section id="prawy"> 
+       Galeria Zdjęć
+        <table>
+            
+        <tr class="obrazek">
+        <td><img src="molo.png" class="obrazek"></td>
+        <td><img src="brzek rzeki.png"  class="obrazek"></td>
+        <td><img src="morze.png" class="obrazek"></td>
+        </tr>
+        
+        <tr class="obrazek">
+        <td><img src="zachód słońca.png" class="obrazek"></td>
+        <td><img src="chmury nad morzem.png" class="obrazek"></td>
+        <td><img src="statek.png" class="obrazek"></td>
+        </tr>
+        
+       
+    </table>
+  
+    </section>
+
+    </body>
+    
+
+    </section>
+    </html>
